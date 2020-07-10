@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body bgcolor=" magenda">
+    <h1 align="center" style="background-color:rgb(231, 89, 125)">Registration Form</h1>
+    <hr>
+
+    <form action="form.html" autocomplete="on" method="post" novalidate rel="alternet">
+        <label for="" style="color:red">First name:</label>
+        <input name="first" type="text" size="50" placeholder="your first name" required><br><br>
+
+        <label for="" style="color:red">Last name: </label>
+        <input name="first" type="text" size="50" placeholder="your last name" required><br><br>
+
+        <label for="" style="color:red">Date of birth:</label>
+        <input type="date" required><br><br>
+
+        <label for="" style="color:red">Username:</label>
+        <input type="text" size="50" placeholder="your user name"><br><br>
+        
+
+        <label for="" style="color:red">password:</label>
+        <input type="password" maxlength="10" size="50" pattern=[A-Z]{1,} placeholder="*****************"><br><br>
+
+        <label for="" style="color:red">Email address:</label>
+        <input type="email" pattern=".+gmail.com" tittle="you must input a valid gmail account" size="50" maxlength="30"
+            placeholder="your email address"><br><br>
+
+        <label for="a" style="color:red">Language:</label>
+        <input type="checkbox" name="" id="a">
+        <input type="text" size="6" value="English" readonly>
+        <input type="checkbox" name="" id="a">
+        <input type="text" size="6" value="Bangla" readonly><br><br>
+
+        <label for="a" style="color:red">Phone no:</label>
+        <input type="tel" pattern=[0-9]{3,} size="50" maxlength="11" placeholder="+88">
+        <br><br><br>
+        <label for="a" style="color:red">About:</label>
+        <textarea name="majeda" id="" cols="50" placeholder="your information here"></textarea><br><br>
+
+
+        <button type="reset" style="background-color: burlywood;">reset</button>
+
+        <button type="submit" style="background-color:pink">submit</button>
+    </form>
+
+
+</body>
+
+</html>
